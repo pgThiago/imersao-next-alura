@@ -1,43 +1,141 @@
 {
-    "bg": "https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-    "title": "Space Quiz",
-    "description": "Teste os seus conhecimentos sobre astronomia.",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Quantos planetas existem no sistema solar?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Qual a distância entre a terra e o sol?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#000",
-        "secondary": "#29b6f6",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+  "title": "Space Quiz",
+  "description": "Teste os seus conhecimentos sobre astronomia.",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Quantos planetas existem no sistema solar?",
+      "description": "Essa é pra aquecer",
+      "answer": 1,
+      "alternatives": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Qual a distância entre a terra e o sol?",
+      "description": "Último herói da terra sabe essa",
+      "answer": 3,
+      "alternatives": [
+        "149600 km",
+        "1496000 km",
+        "14960000 km",
+        "149600000 km"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Como se forma um buraco negro?",
+      "description": "Os buracos negros não foram descobertos por Einstein. Quem os observou pela primeira vez foi um cientista chamado John Michell. Ele os chamou de “estrela escura”.",
+      "answer": 2,
+      "alternatives": [
+        "A partir do nascimento de uma estrela",
+        "Após a colisão de duas estrelas",
+        "No colapso de uma estrela",
+        "Durante a colisão de duas galaxias"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Quais pesquisadores detectaram as ondas gravitacionais pela primeira vez?",
+      "description": "Eles ganharam o Nobel de Física",
+      "answer": 0,
+      "alternatives": [
+        "Rainer Weiss, Barry Barish, Kip Thorne",
+        "Albert Einstein, Nikola Tesla, Thomas Edison",
+        "Johannes Kepler, Ptolemeu, Nicolau Copérnico",
+        "Edwin Powell Hubble, Alexander Friedmann, Georges Lemaître"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Em que ano as ondas gravitacionais foram detectadas?",
+      "description": "Elas surgiram do choque de buracos negros com 36 e 29 massas solares (36 Msol e 29 Msol respectivamente) e ocorreram a uma distância de 1,3 bilhões de anos-luz.",
+      "answer": 1,
+      "alternatives": [
+        "1879",
+        "2015",
+        "1955",
+        "2020"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "O que é um Quasar?",
+      "description": "Quasares apresentam um redshift muito alto, que é um efeito da expansão do espaço entre o quasar e a Terra.[",
+      "answer": 2,
+      "alternatives": [
+        "Um planeta supermassivo",
+        "Um buraco negro com pouca massa",
+        "É um núcleo galáctico ativo, de tamanho maior que o de uma estrela, porém menor do que o mínimo para ser considerado uma galáxia.",
+        "É o nascimento de uma estrela"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Qual Telescópio promete revolucionar o conhecimento da humanidade sobre o cosmos?",
+      "description": "Um telescópio ou luneta astronómica é um instrumento que permite estender a capacidade dos olhos humanos de observar e mensurar objetos longínquos.",
+      "answer": 1,
+      "alternatives": [
+        "LUVOIR",
+        "James Webb",
+        "HabEx",
+        "Lynx"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Quantos exoplanetas foram descobertos?",
+      "description": "É mais de mil",
+      "answer": 1,
+      "alternatives": [
+        "1001",
+        "4331",
+        "2560",
+        "3670"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Em que ano os primeiros Quasares foram detectados?",
+      "description": "Os primeiros Quasares foram registrados como fontes de emissão de rádio, a maioria sem um objeto visível correspondente.",
+      "answer": 3,
+      "alternatives": [
+        "2015",
+        "2000",
+        "1900",
+        "1950"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Quantos Quasares são conhecidos?",
+      "description": "Todos os espectros dos Quasares observados tem redshift entre 0,056 e 7,065. Aplicando a Lei de Hubble a estes redshifts, chega-se ao resultado que eles estão entre 600 milhões[16] e 12.9 bilhões de anos luz de distância.",
+      "answer": 1,
+      "alternatives": [
+        "Aproximadamente 100000",
+        "Aproximadamente 200000",
+        "Aproximadamente 300000",
+        "Aproximadamente 40000"
+      ]
     }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#311b92",
+      "secondary": "#000",
+      "mainBg": "#000",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF0000",
+      "success": "#00FF00"
+    },
+    "borderRadius": "4px"
   }
+}
