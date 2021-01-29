@@ -16,7 +16,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado:
+        Resultado:
       </Widget.Header>
 
       <Widget.Content>
@@ -36,7 +36,7 @@ function ResultWidget({ results }) {
         </p>
         <ul>
           {results.map((result, index) => (
-            <li key={`result__${result}`}>
+            <li key={`result__${index}`}>
               #
               {index + 1}
               {' '}
@@ -83,6 +83,8 @@ function QuestionWidget({
   const questionId = `question__${questionIndex}`;
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
+
+  console.log(isQuestionSubmited)
 
   return (
     <Widget>
@@ -175,29 +177,22 @@ export default function QuizPage({ externalQuestions, externalBg }) {
   const bg = externalBg;
 
   function addResult(result) {
-    // results.push(result);
     setResults([
       ...results,
       result,
     ]);
   }
-
-  // [React chama de: Efeitos || Effects]
-  // React.useEffect
-  // atualizado === willUpdate
-  // morre === willUnmount
+  
   React.useEffect(() => {
-    // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
     }, 1 * 2000);
-  // nasce === didMount
   }, []);
 
   function handleSubmitQuiz() {
     const nextQuestion = questionIndex + 1;
     if (nextQuestion < totalQuestions) {
-      setCurrentQuestion(nextQuestion);
+      setCurrentQuestion(nextQuestion);      
     } else {
       setScreenState(screenStates.RESULT);
     }
