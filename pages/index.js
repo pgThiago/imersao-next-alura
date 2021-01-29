@@ -40,7 +40,6 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>
-          SpaceQuiz -
           {db.title}
         </title>
       </Head>
